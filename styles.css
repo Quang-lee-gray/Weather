@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.winter{
+    background: linear-gradient(to top, rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url('https://1.bp.blogspot.com/-3G0HN_V_EC4/Xa2omuFsLYI/AAAAAAAAzPM/6j6RG2XG7mMhBNQjMhQzKU8A_ncsYC-SQCLcBGAsYHQ/s1600/hinh-anh-mua-dong-buon-4.jpg') no-repeat center/cover;
+}
+.winter2{
+    background: linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('https://1.bp.blogspot.com/-3G0HN_V_EC4/Xa2omuFsLYI/AAAAAAAAzPM/6j6RG2XG7mMhBNQjMhQzKU8A_ncsYC-SQCLcBGAsYHQ/s1600/hinh-anh-mua-dong-buon-4.jpg') no-repeat center/cover;
+}
+.autumn{
+    background: linear-gradient(to top, rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url('https://haycafe.vn/wp-content/uploads/2021/11/Hinh-anh-mua-thu-Ha-Noi.jpg') no-repeat center/cover;
+}
+.autumn2{
+    background: linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('https://haycafe.vn/wp-content/uploads/2021/11/Hinh-anh-mua-thu-Ha-Noi.jpg') no-repeat center/cover;
+}
+.summer{
+    background: linear-gradient(to top, rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url('https://i.pinimg.com/originals/92/40/25/9240256502f8846c0a452d0077da30ef.jpg') no-repeat center/cover;
+}
+.summer2{
+    background: url('https://i.pinimg.com/originals/92/40/25/9240256502f8846c0a452d0077da30ef.jpg') no-repeat center/cover;
+}
+.weather{
+    min-width:350px;
+    padding: 30px;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.weather__search{
+    border:none;
+    outline:none;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background: rgba(255, 255, 255, 0.6);
+    color:#000;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+}
+.weather__search:focus{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: rgba(255, 255, 255, 0.8); ;
+}
+.weather__content-capital{
+    color:#fff;
+    padding-top: 35px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather__content-time{
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+.weather__content-temp{
+    background: rgba(255, 255, 255, 0.4);
+    color:#fff;
+    font-size:70px;
+    font-weight: bold;
+    text-shadow: 4px 4px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 25px;
+    box-shadow: 5px 5px rgba(0,0,0,0.6);
+    text-align: center;
+}
+.weather__content-shortdesc{
+    color:#fff;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 25px 0;
+    text-shadow: 3px 3px rgba(0,0,0,0.6);
+}
+.weather__content-moredesc{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.visibility,
+.wind,
+.humidity{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    line-height:40px;
+    text-align: center;
+}
+.visibility i,
+.wind i,
+.humidity i{
+    text-align: center;
+}
